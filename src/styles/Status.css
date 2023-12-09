@@ -1,0 +1,51 @@
+.status_main {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  .sub {
+    border-radius: 8px;
+    padding: 10px;
+    width: 260px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  .sub > div {
+    margin-bottom: 10px;
+  }
+  
+  .status_card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 0.5px;
+    padding-left: 15px;
+    padding-bottom: 0.5px;
+    width: 260px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .status_card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .status_card > div {
+    margin-bottom: 10px;
+  }
+  
+  .sub h3{
+    font-size: 1.0em;
+    display: left;
+    margin-left: 90px;
+  }
+
+  .keyp{
+    color: gray
+  }
+
+  .keyp2{
+    font-size: 0.9em;
+  }

@@ -1,0 +1,46 @@
+/* Styles for the navigation container */
+.navigation {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Styles for the heading */
+  .heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  /* Styles for the navigation list */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Styles for the list items */
+  .items {
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+  }
+  
+  /* Styles for the links */
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    margin-right: 30px;
+  }
+  
+  .link:hover {
+    color: #ff9900; /* Change the color on hover */
+  }
+  
